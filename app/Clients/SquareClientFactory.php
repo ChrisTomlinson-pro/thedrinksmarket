@@ -14,7 +14,7 @@ class SquareClientFactory
      * @param User $user
      * @return SquareClient
      */
-    public function make()
+    public function make(User $user)
     {
         $access_token =  $user->access_token;
 
